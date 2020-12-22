@@ -9,10 +9,11 @@ import org.springframework.context.annotation.Configuration;
  * original package: spesce.springframework.chucknorrisjokes.config
  * ------------------------------------------------------------------------------------------
  */
-@Configuration
+
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
         return new ChuckNorrisQuotes();
     }
